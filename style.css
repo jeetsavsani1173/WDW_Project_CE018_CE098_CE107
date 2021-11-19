@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0 20px 30px 0;
+    line-height: 1.4;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfISpot32GiZ9xec9TukEOvNtRZaUNOX8rqw&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex-container{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfISpot32GiZ9xec9TukEOvNtRZaUNOX8rqw&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    transition: 2s all ease;
+}
+
+.flex-item{
+    background: cyan;
+    border: 1pt solid black;
+    width: 10px;
+    transition: 0.1s all ease;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+#input{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+header nav .row .col .btn{
+    border-radius: 15px;
+    font-weight: bolder;
+}
+header nav .row .col .btn:disabled{
+    border: 2px solid black;
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+}
+header nav .row .col .btn-outline-success{
+    background-color: white;
+    background-image: url('https://i.gifer.com/2eSd.gif');
+    color: black;
+    border: 2px solid blue;
+}
+header nav .row .col .btn-outline-success:hover{
+    border: 2px solid blue;
+    background-image: url('https://64.media.tumblr.com/887ed102eba8b2f59ecddabd73d3c05c/tumblr_ok96baWxy61vsjcxvo1_540.gifv');
+    color: white;
+    font-weight: bolder;
+}
+header nav .row .col .btn-outline-primary{
+    background-image: url('https://i.gifer.com/76YS.gif');
+}
+header nav .row .col .btn-outline-primary:hover{
+    background-image: url('https://cliply.co/wp-content/uploads/2019/08/371908020_CONFETTI_400px.gif');
+    color: black;
+    font-weight: bolder;
+}
+header nav .row .col .btn-outline-primary:active,.btn-outline-primary:disabled{
+    background-image: url('https://cliply.co/wp-content/uploads/2019/08/371908020_CONFETTI_400px.gif');
+    color: black;
+    font-weight: bolder;
+}
+header nav .row .col .selectionSort:active{
+    background-color: yellow;
+}
